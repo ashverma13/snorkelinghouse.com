@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade"> 
+	<name>COM_FOXCONTACT</name>
+	<creationDate>19/03/2011</creationDate>
+	<author>Demis Palma</author>
+	<authorEmail>demis@fox.ra.it</authorEmail>
+	<authorUrl>http://www.fox.ra.it/</authorUrl>
+	<copyright>Demis Palma</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.8.12</version>
+	<description>COM_FOXCONTACT_DESCRIPTION</description>
+
+	<install> <!-- Runs on install -->
+		<sql><file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file></sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql><file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file></sql>
+	</uninstall>
+	<update> <!-- Runs on update; New in 1.6 -->
+		<schemas><schemapath type="mysql">sql/updates/mysql</schemapath></schemas>
+	</update>
+ 
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>foxcontact.php</filename>
+		<filename>controller.php</filename>
+		<folder>css</folder>
+		<folder>helpers</folder>
+		<folder>js</folder>
+		<folder>uploads</folder>
+		<folder>views</folder>
+	</files>
+ 
+	<media destination="com_foxcontact" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+		<folder>fonts</folder>
+		<folder>mimetypes</folder>
+	</media>
+
+	<languages folder="site/language">
+		<language tag="de-DE">de-DE/de-DE.com_foxcontact.ini</language>
+		<language tag="en-GB">en-GB/en-GB.com_foxcontact.ini</language>
+		<language tag="es-ES">es-ES/es-ES.com_foxcontact.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.com_foxcontact.ini</language>
+		<language tag="he-IL">he-IL/he-IL.com_foxcontact.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.com_foxcontact.ini</language>
+		<language tag="it-IT">it-IT/it-IT.com_foxcontact.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.com_foxcontact.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.com_foxcontact.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.com_foxcontact.ini</language>
+		<language tag="pt-PT">pt-PT/pt-PT.com_foxcontact.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.com_foxcontact.ini</language>
+		<language tag="sv-SE">sv-SE/sv-SE.com_foxcontact.ini</language>
+		<language tag="tr-TR">tr-TR/tr-TR.com_foxcontact.ini</language>
+		<language tag="zh-CN">zh-CN/zh-CN.com_foxcontact.ini</language>
+	</languages>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="../media/com_foxcontact/images/email-16.png">COM_FOXCONTACT_MENU</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>foxcontact.php</filename>
+			<folder>models</folder>
+			<folder>sql</folder>
+		</files>
+
+		<languages folder="admin/language">
+			<language tag="de-DE">de-DE/de-DE.com_foxcontact.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_foxcontact.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_foxcontact.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_foxcontact.ini</language>
+			<language tag="he-IL">he-IL/he-IL.com_foxcontact.ini</language>
+			<language tag="hu-HU">hu-HU/hu-HU.com_foxcontact.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_foxcontact.ini</language>
+			<language tag="nl-NL">nl-NL/nl-NL.com_foxcontact.ini</language>
+			<language tag="pl-PL">pl-PL/pl-PL.com_foxcontact.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_foxcontact.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_foxcontact.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_foxcontact.ini</language>
+			<language tag="sv-SE">sv-SE/sv-SE.com_foxcontact.ini</language>
+			<language tag="tr-TR">tr-TR/tr-TR.com_foxcontact.ini</language>
+			<language tag="zh-CN">zh-CN/zh-CN.com_foxcontact.ini</language>
+
+			<language tag="de-DE">de-DE/de-DE.com_foxcontact.sys.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_foxcontact.sys.ini</language>
+			<language tag="es-ES">es-ES/es-ES.com_foxcontact.sys.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_foxcontact.sys.ini</language>
+			<language tag="he-IL">he-IL/he-IL.com_foxcontact.sys.ini</language>
+			<language tag="hu-HU">hu-HU/hu-HU.com_foxcontact.sys.ini</language>
+			<language tag="it-IT">it-IT/it-IT.com_foxcontact.sys.ini</language>
+			<language tag="nl-NL">nl-NL/nl-NL.com_foxcontact.sys.ini</language>
+			<language tag="pl-PL">pl-PL/pl-PL.com_foxcontact.sys.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_foxcontact.sys.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_foxcontact.sys.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_foxcontact.sys.ini</language>
+			<language tag="sv-SE">sv-SE/sv-SE.com_foxcontact.sys.ini</language>
+			<language tag="tr-TR">tr-TR/tr-TR.com_foxcontact.sys.ini</language>
+			<language tag="zh-CN">zh-CN/zh-CN.com_foxcontact.sys.ini</language>
+		</languages>
+
+	</administration>
+
+	<installfile>install.php</installfile>
+	<uninstallfile>uninstall.php</uninstallfile>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Foxcontact update site"><![CDATA[http://www.fox.ra.it/phocadownload/com_foxcontact.xml]]></server>
+	</updateservers>
+
+</extension>
+

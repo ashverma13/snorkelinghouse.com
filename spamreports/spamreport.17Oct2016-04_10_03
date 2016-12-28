@@ -1,0 +1,37 @@
+*********Customer report*************
+*********mail log*************
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:57 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:13:58 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fhanriette_gerard@snorkelinghouse.com
+2016-10-16 11:13:58 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fcoralie_lefevre@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -feunice@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fsamantha@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fsamantha@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fsamantha@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -feunice@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fsamantha@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -feunice@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -feunice@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -fsamantha@snorkelinghouse.com
+2016-10-16 11:15:14 cwd=/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl 4 args: /usr/sbin/sendmail -t -i -feunice@snorkelinghouse.com
+*********mail source directories *************
+/home/opxjuzgr/public_html/components/com_jce/controller                    3183
+*********Disabled files *************
+/home/opxjuzgr/public_html/administrator/modules/mod_login/tmpl/test.php
+/home/opxjuzgr/public_html/components/com_jce/controller/proxy75.php

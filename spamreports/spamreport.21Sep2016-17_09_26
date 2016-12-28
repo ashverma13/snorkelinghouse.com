@@ -1,0 +1,36 @@
+*********Customer report*************
+*********mail log*************
+2016-09-21 10:02:30 cwd=/home/opxjuzgr/public_html 6 args: /usr/sbin/sendmail -t -i -oi -f henning@designstudio.cr
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fdawn_griffin@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+2016-09-21 15:11:41 cwd=/home/opxjuzgr/public_html/components/com_mailto/views 4 args: /usr/sbin/sendmail -t -i -fmelanie_tucker@snorkelinghouse.com
+*********mail source directories *************
+/home/opxjuzgr/public_html/components/com_mailto/views                      3220
+*********Disabled files *************
+/home/opxjuzgr/public_html/components/com_mailto/views/utf.php

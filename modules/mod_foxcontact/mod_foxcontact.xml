@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Fox Contact Form</name>
+	<creationDate>19/03/2011</creationDate>
+	<author>Demis Palma</author>
+	<authorEmail>demis@extreme.ra.it</authorEmail>
+	<authorUrl>http://www.fox.ra.it/joomla-extensions/fox-contact-form.htmll</authorUrl>
+	<copyright>Demis Palma</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.8.12</version>
+	<description>Module for Fox Contact Form Component</description>
+
+	<files>
+		<filename module="mod_foxcontact">mod_foxcontact.php</filename>
+		<filename>mod_foxcontact.xml</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+
+
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.mod_foxcontact.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_foxcontact.ini</language>
+		<language tag="es-ES">es-ES/es-ES.mod_foxcontact.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_foxcontact.ini</language>
+		<language tag="he-IL">he-IL/he-IL.mod_foxcontact.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.mod_foxcontact.ini</language>
+		<language tag="it-IT">it-IT/it-IT.mod_foxcontact.ini</language>
+		<language tag="nl-NL">nl-NL/nl-NL.mod_foxcontact.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.mod_foxcontact.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.mod_foxcontact.ini</language>
+		<language tag="pt-PT">pt-PT/pt-PT.mod_foxcontact.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.mod_foxcontact.ini</language>
+		<language tag="sv-SE">sv-SE/sv-SE.mod_foxcontact.ini</language>
+		<language tag="tr-TR">tr-TR/tr-TR.mod_foxcontact.ini</language>
+		<language tag="zh-CN">zh-CN/zh-CN.mod_foxcontact.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field type="spacer" class="text" label="MOD_VFC_WARNING_LBL" description="MOD_VFC_WARNING_DSC"/>
+				<field name="menu_item" type="menuitem" label="MOD_VFC_MENUITEM_LBL" description="MOD_VFC_MENUITEM_DSC" required="true" />
+				<field type="spacer" class="text" label="MOD_VFC_OVERRIDE_LBL" description="MOD_VFC_OVERRIDE_DSC"/>
+
+				<field name="top_textdisplay" type="list" label="MOD_FCF_TOPTEXT_LBL" default="0">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field name="bottom_textdisplay" type="list" label="MOD_FCF_BOTTOMTEXT_LBL" default="0">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field type="spacer" class="text" label="COM_VFC_NAME_ADDRESS_REQUEST_LBL" />
+				<field name="senderwidth" type="text" label="COM_VFC_WIDTH_LBL" description="COM_CACHE_SIZE" default="90" size="5" />
+				<field name="senderunit" type="list" label="COM_VFC_UNITS_LBL" default="%">
+					<option value="px">COM_VFC_PIXELS</option>
+					<option value="%">COM_VFC_PERCENT</option>
+				</field>
+				<field type="spacer" />
+
+				<field type="spacer" class="text" label="COM_VFC_TEXTFIELDS_LBL" />
+				<field name="textwidth" type="text" label="COM_VFC_WIDTH_LBL" description="COM_CACHE_SIZE" default="90" size="5" />
+				<field name="textunit" type="list" label="COM_VFC_UNITS_LBL" default="%">
+					<option value="px">COM_VFC_PIXELS</option>
+					<option value="%">COM_VFC_PERCENT</option>
+				</field>
+				<field type="spacer" />
+
+				<field type="spacer" class="text" label="COM_VFC_TEXTAREAFIELD_LBL" description="COM_VFC_TEXTAREAFIELD_DSC"/>
+				<field name="textareawidth" type="text" label="COM_VFC_WIDTH_LBL" description="COM_CACHE_SIZE" default="90" size="5" />
+				<field name="textareaheight" type="text" label="COM_VFC_HEIGHT_LBL" description="COM_CACHE_SIZE" default="130" size="5" />
+				<field name="textareaunit" type="list" label="COM_VFC_UNITS_LBL" default="%">
+					<option value="px">COM_VFC_PIXELS</option>
+					<option value="%">COM_VFC_PERCENT</option>
+				</field>
+				<field type="spacer" />
+
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Foxcontact update site"><![CDATA[http://www.fox.ra.it/phocadownload/mod_foxcontact.xml]]></server>
+	</updateservers>
+
+</extension>

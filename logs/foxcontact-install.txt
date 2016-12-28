@@ -1,0 +1,47 @@
+2011-11-01 15:45:30 [installscript] Installing on php 5.2.17 | Linux | safe_mode: 0 | interface: cgi-fcgi
+2011-11-01 15:45:30 [fmimetype] --- Determining if this system is able to detect file mime types ---
+2011-11-01 15:45:30 [fmimetype] fileinfo extension not found
+2011-11-01 15:45:30 [fmimetype] mime_content_type() function found. Let's see if it works.
+2011-11-01 15:45:30 [fmimetype] testing detected mimetype [text/plain] seeking expected string [audio/]... [0]
+2011-11-01 15:45:30 [fmimetype] testing detected mimetype [text/plain] seeking expected string [video/]... [0]
+2011-11-01 15:45:30 [fmimetype] testing detected mimetype [image/jpeg] seeking expected string [image/]... [1]
+2011-11-01 15:45:30 [fmimetype] testing detected mimetype [text/plain] seeking expected string [application/zip]... [0]
+2011-11-01 15:45:30 [fmimetype] testing detected mimetype [application/pdf] seeking expected string [application/pdf]... [1]
+2011-11-01 15:45:30 [fmimetype] exec() enabled. It should be safe to call it. Let's see if it works.
+2011-11-01 15:45:31 [fmimetype] testing detected mimetype [] seeking expected string [audio/]... [0]
+2011-11-01 15:45:31 [fmimetype] testing detected mimetype [] seeking expected string [video/]... [0]
+2011-11-01 15:45:31 [fmimetype] testing detected mimetype [] seeking expected string [image/]... [0]
+2011-11-01 15:45:31 [fmimetype] testing detected mimetype [] seeking expected string [application/zip]... [0]
+2011-11-01 15:45:31 [fmimetype] testing detected mimetype [] seeking expected string [application/pdf]... [0]
+2011-11-01 15:45:31 [fmimetype] --- Method choosen to detect file mime types is [disabled] ---
+2011-11-01 15:45:31 [installscript] --- Determining if this system is able to draw captcha images ---
+2011-11-01 15:45:31 [installscript] GD Version... [bundled (2.0.34 compatible)]
+2011-11-01 15:45:31 [installscript] FreeType Support... [1]
+2011-11-01 15:45:31 [installscript] FreeType Linkage... [with freetype]
+2011-11-01 15:45:31 [installscript] T1Lib Support... []
+2011-11-01 15:45:31 [installscript] GIF Read Support... [1]
+2011-11-01 15:45:31 [installscript] GIF Create Support... [1]
+2011-11-01 15:45:31 [installscript] JPG Support... [1]
+2011-11-01 15:45:31 [installscript] PNG Support... [1]
+2011-11-01 15:45:31 [installscript] WBMP Support... [1]
+2011-11-01 15:45:31 [installscript] XPM Support... [1]
+2011-11-01 15:45:31 [installscript] XBM Support... [1]
+2011-11-01 15:45:31 [installscript] JIS-mapped Japanese Font Support... []
+2011-11-01 15:45:31 [installscript] gd extension found. Let's see if it works.
+2011-11-01 15:45:31 [installscript] testing function [imagecreate]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imagecolorallocate]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imagefill]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imageline]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imagettftext]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imagejpeg]... [1]
+2011-11-01 15:45:31 [installscript] testing function [imagedestroy]... [1]
+2011-11-01 15:45:31 [installscript] --- Method choosen to draw captcha images is [use_gd] ---
+2011-11-01 15:45:31 [installscript] Determining correct file permissions...  [100644]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact/helpers/debug-on.php]... [1]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact/helpers/debug-off.php]... [1]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact/helpers/fcaptcha-drawer.php]... [1]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact/helpers/qqfileuploader.php]... [1]
+2011-11-01 15:45:31 [installscript] Determining correct directory permissions...  [40755]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components]... [1]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact]... [1]
+2011-11-01 15:45:31 [installscript] setting permissions for [/home/fernando/public_html/components/com_foxcontact/helpers]... [1]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>Instant Suggest</name>
+    <version>2.0.1</version>
+    <creationDate>2013</creationDate>
+    <author>InstantSuggest.com</author>
+    <authorEmail>N/A</authorEmail>
+    <authorUrl>www.instantsuggest.com/</authorUrl>
+    <copyright>InstantSuggest.com</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <description>Suggests SEO content and keywords for your website instantly</description>
+    <files>
+        <filename plugin="instantsuggest">instantsuggest.php</filename>
+        <filename>index.html</filename>
+        <folder>js</folder>
+    </files>
+    <scriptfile>instantsuggest.installer.php</scriptfile>
+</extension>
